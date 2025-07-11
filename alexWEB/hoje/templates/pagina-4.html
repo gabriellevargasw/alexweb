@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Automação Industrial PG4</title>
+  <style>
+    body {
+      background-color: #E3C097;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    h1, h2 {
+      color: #5A3B1D;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+      border-collapse: collapse;
+    }
+
+    table td {
+      text-align: center;
+      padding: 10px;
+      border: 1px solid #5A3B1D;
+    }
+
+    p {
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+
+    a {
+      color: #5A3B1D;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .back-link {
+      display: block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Automação Industrial</h1>
+    <a name="topo"></a>
+
+    <table>
+      <tr>
+        <td><a href="#conclusao">Conclusão</a></td>
+      </tr>
+      <tr>
+        <td>
+          <a href="https://perfilmaq.ind.br/blog/automacao-industrial-no-empacotamento/?gclid=CjwKCAjwjaWoBhAmEiwAXz8DBZl7wLuAuiK36WQuqbSba9R2KhD0PBT75vmiR95zsvbwM6y2ZxwMwRoC88AQAvD_BwE">
+            <img src="{{ url_for('static', filename='imagens/oqé.jpg') }}" alt="Imagem automação industrial" />
+          </a>
+        </td>
+      </tr>
+    </table>
+
+    <a href="{{ url_for('index') }}" class="back-link">Voltar para a página principal</a>
+
+    <h2>Introdução</h2>
+    <p>
+      A automação industrial revoluciona os processos de fabricação, substituindo o trabalho manual por máquinas e sistemas automatizados.
+      Essa evolução tecnológica permite maior precisão, velocidade e eficiência na produção, além de reduzir erros humanos. A indústria está
+      se tornando cada vez mais dependente da automação para impulsionar sua competitividade e atender às demandas do mercado.
+    </p>
+
+    <h2>Importância da automação industrial</h2>
+    <h3>Aumento da produtividade</h3>
+    <p>
+      A automação industrial permite a produção em larga escala, reduzindo o tempo de produção e aumentando a saída em relação aos métodos manuais.
+    </p>
+
+    <h3>Melhoria da qualidade</h3>
+    <p>
+      Máquinas automatizadas executam tarefas com maior precisão e consistência, resultando em produtos de alta qualidade e menos defeitos.
+    </p>
+
+    <h3>Redução de custos</h3>
+    <p>
+      A automação pode diminuir os custos de mão de obra, minimizar o desperdício de materiais e otimizar o consumo de energia.
+    </p>
+
+    <h2>Tipos de automação industrial</h2>
+    <h3>Automatização fixa</h3>
+    <p>Automatização de um processo específico sem flexibilidade para mudanças.</p>
+
+    <h3>Automatização programável</h3>
+    <p>Sistemas que podem ser reconfigurados e ajustados para diferentes tarefas e necessidades.</p>
+
+    <h3>Automatização flexível</h3>
+    <p>Sistemas altamente adaptáveis, capazes de se ajustar a mudanças nas demandas e condições de produção.</p>
+
+    <h2>Benefícios da automação industrial</h2>
+    <table>
+      <tr>
+        <th>Benefício</th>
+        <th>Descrição</th>
+      </tr>
+      <tr>
+        <td>Aumento da produtividade</td>
+        <td>Máquinas automatizadas executam tarefas mais rapidamente, aumentando a produção.</td>
+      </tr>
+      <tr>
+        <td>Redução de erros</td>
+        <td>Sistemas automatizados reduzem erros humanos e melhoram a qualidade do produto.</td>
+      </tr>
+      <tr>
+        <td>Melhoria na segurança</td>
+        <td>A automação ajuda a minimizar a exposição dos trabalhadores a riscos e ambientes perigosos.</td>
+      </tr>
+    </table>
+
+    <h2>Desafios da automação industrial</h2>
+    <ul>
+      <li>Integração de sistemas</li>
+      <li>Custos iniciais elevados</li>
+      <li>Falta de habilidades e conhecimento técnico</li>
+      <li>Adaptação às mudanças tecnológicas</li>
+    </ul>
+
+    <h2>Tendências futuras da automação industrial</h2>
+    <h3>Robótica colaborativa</h3>
+    <p>
+      A integração de robôs e humanos no mesmo ambiente de trabalho, compartilhando tarefas e colaborando para maximizar a eficiência.
+    </p>
+
+    <h3>Inteligência Artificial</h3>
+    <p>
+      O uso de algoritmos avançados para otimizar processos, melhorar a tomada de decisão e prever falhas antes que ocorram.
+    </p>
+
+    <h3>Internet das Coisas</h3>
+    <p>
+      A conexão entre máquinas, sensores e dispositivos para compartilhar dados e otimizar a produção em tempo real.
+    </p>
+
+    <h2 id="conclusao">Conclusão</h2>
+    <p>
+      A automação industrial é uma realidade em constante evolução que oferece benefícios significativos para as empresas e a
+      sociedade como um todo. Ao adotar a automação de forma inteligente e estratégica, as empresas podem impulsionar sua competitividade,
+      aumentar a eficiência e melhorar a qualidade de seus produtos. Esteja preparado para abraçar as tendências futuras da automação 
+      industrial e colher os benefícios que elas trarão.
+    </p>
+  </div>
+</body>
+</html>

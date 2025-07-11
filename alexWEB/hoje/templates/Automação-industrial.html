@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Automação Industrial</title>
+</head>
+<body>
+
+<div class="container">
+  <h1>Automação Industrial</h1>
+
+  <table border="1">
+    <tr>
+      <td><a href="#automacao">Automação Industrial</a></td>
+      <td><a href="#importancia">Importância</a></td>
+      <td><a href="#tipos">Tipos</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.siembra.com.br/noticias/o-que-e-automacao-industrial/"><img src="{{ url_for('static', filename='imagens/gabiprova.jpg') }}"></a></td>
+      <td><a href="https://procenge.com.br/blog/importancia-da-automacao-de-processos-para-uma-gestao-inteligente/"><img src="{{ url_for('static', filename='imagens/pessoasprova.jpg') }}"></a></td>
+      <td><a href="https://www.youtube.com/watch?v=uvLDCBJEN7k"><img src="{{ url_for('static', filename='imagens/roboprova.jpg') }}"></a></td>
+    </tr>
+  </table>
+
+  <a href="{{ url_for('pagina2') }}">Ir para Automação Industrial PG2</a>
+
+  <h2 id="automacao" class="section-title">Automação Industrial</h2>
+
+  <p>
+    A automação industrial é um campo de estudo e aplicação cada vez mais importante na indústria moderna…
+    Ela está mudando a maneira como as empresas operam e oferece oportunidades para aumentar a eficiência e a produtividade.
+  </p>
+
+  <p>
+    A evolução da automação começou no século XIX com a revolução industrial. Maquinários substituíram tarefas manuais com peças mecânicas. 
+    Com o tempo, relés, contatores, circuitos integrados e computadores foram introduzidos. Hoje temos sistemas ciber-físicos integrados à Internet das Coisas.
+  </p>
+
+  <p>
+    A automação moderna é baseada em princípios como interoperabilidade, virtualização, descentralização, tempo real, orientação a serviços e modularidade.
+  </p>
+
+  <h2 class="section-title">Segmentos da Automação</h2>
+
+  <p>
+    A automação é dividida em controle de processo discreto e contínuo. O primeiro é feito em etapas (usado em lotes e montagem) e o segundo é ininterrupto 
+    (usado em refinarias, bebidas, etc.).
+  </p>
+
+  <h2 class="section-title">Redes de Comunicação</h2>
+
+  <p>
+    Redes industriais garantem a troca de dados rápida e segura entre sensores, controladores e supervisores, permitindo diagnóstico remoto e maior eficiência.
+  </p>
+
+  <h2 id="importancia" class="section-title">Importância da Automação Industrial</h2>
+
+  <p>
+    A automação permite produção em larga escala, redução de tempo, custos e desperdícios, além de melhorar qualidade, segurança e precisão.
+  </p>
+
+  <p>
+    Ela simplifica tarefas repetitivas, integra sistemas e dados, e melhora a experiência do cliente com processos mais rápidos e inteligentes.
+  </p>
+
+  <h2 id="tipos" class="section-title">Tipos de Automação Industrial</h2>
+
+  <ul>
+    <li><strong>Fixa:</strong> ideal para altos volumes, com configuração rígida e tarefas repetitivas.</li>
+    <li><strong>Flexível:</strong> permite mudanças rápidas na programação para maior agilidade.</li>
+    <li><strong>Integrada:</strong> interliga áreas da empresa para maior organização e comunicação.</li>
+    <li><strong>Programável:</strong> adapta-se à demanda, porém com mais tempo para reprogramação.</li>
+  </ul>
+
+</div>
+<style>
+    body {
+      background-color: #E3C097;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+  
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+  
+    h1, h2 {
+      color: #5A3B1D;
+      text-align: center;
+    }
+  
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  
+    table {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    table td {
+      text-align: center;
+      padding: 10px;
+    }
+  
+    table img {
+      width: 200px;
+      height: auto;
+    }
+  
+    p {
+      text-align: justify;
+      margin-bottom: 15px;
+    }
+  
+    ul {
+      margin-bottom: 15px;
+    }
+  
+    a {
+      color: #5A3B1D;
+      text-decoration: none;
+    }
+  
+    a:hover {
+      text-decoration: underline;
+    }
+  
+    .back-link {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .section-title {
+      margin-top: 30px;
+      font-size: 24px;
+      color: #5A3B1D;
+      border-bottom: 2px solid #E3C097;
+      padding-bottom: 5px;
+    }
+  </style>
+</body>
+</html>
